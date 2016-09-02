@@ -1,0 +1,12 @@
+<h4><%= @question.title %></h4>
+<p><%= @question.body %></p>
+
+<%= form_for(@answer, :url => question_answers_path(@question)) do |f| %>
+  <div><%= f.label :body, "Answer" %></div>
+  <div><%= f.text_field :body %></div><br>
+  <div><%= f.label :username, "Username" %></div>
+  <div><%= f.text_field :username %></div><br>
+  <div><%= f.submit "Submit Answer" %></div>
+<% end %><br>
+
+<%= link_to 'Home', questions_path %>

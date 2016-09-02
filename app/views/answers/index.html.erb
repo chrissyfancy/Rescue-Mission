@@ -1,0 +1,9 @@
+<%= flash[:notice] %>
+
+<% if @answers %>
+  <% @answers.each do |answer| %>
+    <h5><%= "#{answer.username} answered:" %></h5>
+    <div><%= answer.body %></div>
+    <div><%= answer.created_at %></div>
+  <% end %>
+<% end %>

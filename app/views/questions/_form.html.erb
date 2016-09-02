@@ -1,0 +1,21 @@
+
+<%= form_for(@question) do |f| %>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %><br>
+  </div><br>
+
+  <div class="field">
+    <%= f.label :username %><br>
+    <%= f.text_field :username %><br>
+  </div><br>
+
+  <div class="field">
+    <%= f.label :body %><br>
+    <%= f.text_field :body %><br>
+  </div><br>
+
+  <div class="actions">
+    <%= f.submit "Submit Question" %>
+  </div><br>
+<% end %>
