@@ -1,24 +1,11 @@
-# README
+Introduction
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this challenge, you will build a website like stackoverflow.com for posting questions and answers. This is a large challenge. Expect that it will take a few days of work to complete.
 
-Things you may want to cover:
+Learning Objectives
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Build a Rails app
+Compare Rails to Sinatra
+Practice using Rails routes
+Practice using Rails form helpers
+Practice using Active Record associations
